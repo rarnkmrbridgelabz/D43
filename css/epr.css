@@ -1,4 +1,4 @@
-
+/* UC 1 */
 body {
     margin: 0;
     height: 100;
@@ -36,9 +36,10 @@ body {
 }
 
 .emp-payroll {color: darkslategray; }
-
 * { box-sizing: border-box; }
 
+
+/* UC 2 */
 .form-content{
     min-height: calc(100%-80px);
     background-color: #f7f7f7;
@@ -94,6 +95,7 @@ label{
     resize: vertical;
 }
 
+/* UC 3 */
 .profile-radio-content{
     display: flex;
     flex-direction: row;
@@ -108,6 +110,8 @@ label{
     border-radius: 50%;
     margin-left: 12px;
 }
+
+/* UC 5 */
 select{
     padding: 12px;
     border: 1px solid #ccc;
@@ -119,6 +123,7 @@ select{
     background-color: transparent;
 }
 
+/* UC 6 */
 .button-content{
     display: flex;
     margin-bottom: 10px;
