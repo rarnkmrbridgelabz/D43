@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../css/payroll_form.css">
+    <link rel="stylesheet" href="../css/epr.css">
     <title>Employee Payroll Form</title>
     
 </head>
 <body>
+
+  <!-- UC 1 -->
     <header class="header-content header">
         <div class="logo-content">
             <img src="../assets/images/logo.png" alt="program">
@@ -18,6 +20,9 @@
         </div>
         </div>
     </header> 
+
+
+    <!-- UC 2 -->
     <div class="form-content">
         <form class="form" action="#" onsubmit="save(event);return false">
         <div class="form-head">Employee Payroll form</div>
@@ -32,22 +37,22 @@
                 <label>
                     <input type="radio" id="profile1" name="profile"
                             value="../assets/profile-images/Ellipse -3.png" required>
-                    <img class="profile" id="image1" src="../assets/profile-images/Ellipse -3.png">
+                    <img class="profile" id="image1" src="../assets/profile images/Ellipse -1.png">
                 </label>
                 <label>
                     <input type="radio" id="profile2" name="profile"
                             value="../assets/profile-images/Ellipse 1.png" required>
-                    <img class="profile" id="image2" src="../assets/profile-images/Ellipse 1.png">
+                    <img class="profile" id="image2" src="../assets/profile images/Ellipse -2.png">
                 </label>
                 <label>
                     <input type="radio" id="profile3" name="profile"
                             value="../assets/profile-images/Ellipse -8.png" required>
-                    <img class="profile" id="image3" src="../assets/profile-images/Ellipse -8.png">
+                    <img class="profile" id="image3" src="../assets/profile images/Ellipse -3.png">
                 </label>
                 <label>
                     <input type="radio" id="profile4" name="profile"
                             value="../assets/profile-images/Ellipse -7.png" required>
-                    <img class="profile" id="image4" src="../assets/profile-images/Ellipse -7.png">
+                    <img class="profile" id="image4" src="../assets/profile images/Ellipse -4.png">
                 </label>
             </div>
         </div>
@@ -60,6 +65,9 @@
                 <label class="label text" for="female">Female</label>
             </div>
         </div>
+
+
+        <!-- UC 5 -->
         <div class="row-content">
             <label class="label text" for="department">Department</label>
             <div>
@@ -140,6 +148,8 @@
                 </select>
             </div>
         </div>
+
+        <!-- UC 6 -->
         <div class="row-content">
             <label class="label text" for="notes">Notes</label>
             <textarea id="notes" class="input" style="height: 100px;"></textarea>
